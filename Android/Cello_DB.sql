@@ -21,7 +21,7 @@ case viewed_by_me_date
 	else datetime(viewed_by_me_date/1000, 'unixepoch')
 End as "Viewed by User Date",
 Mime_type as "Mime Type",
-Quota_bytes as "Size",
+Quota_bytes as "Quota Size",
 case is_folder
 	when 0 then ''
 	when 1 then 'Yes'
