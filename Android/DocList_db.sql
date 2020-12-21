@@ -4,15 +4,15 @@ select
 	case creationTime
 		when 0 then ''
 		else datetime("creationTime"/1000, 'unixepoch')
-	end as "Created",
+	end as "Created Date",
 	case lastModifiedTime
 		when 0 then ''
 		else datetime("lastModifiedTime"/1000, 'unixepoch') 
-	end as "Modified",
+	end as "Modified Date",
 	case lastOpenedTime
 		when 0 then ''
 		else datetime("lastOpenedTime"/1000, 'unixepoch')
-	end as "Opened",
+	end as "Opened Date",
 	lastModifierAccountAlias as "Last Modifier Account Alias",
 	lastModifierAccountName as "Last Modifier Account Name",
 	kind as "File Type",
