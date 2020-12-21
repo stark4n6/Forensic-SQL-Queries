@@ -3,7 +3,7 @@ SELECT
 	case created_date
 		when 0 then ''
 		else datetime(created_date/1000, 'unixepoch')
-	End	as "Created Date",
+	End as "Created Date",
 	case modified_date
 		when 0 then ''
 		else datetime(modified_date/1000, 'unixepoch')
@@ -11,7 +11,7 @@ SELECT
 	case shared_with_me_date
 		when 0 then ''
 		else datetime(shared_with_me_date/1000, 'unixepoch')
-	End	as "Shared with User Date",
+	End as "Shared with User Date",
 	case modified_by_me_date
 		when 0 then ''
 		else datetime(modified_by_me_date/1000, 'unixepoch')
@@ -19,7 +19,7 @@ SELECT
 	case viewed_by_me_date
 		when 0 then ''
 		else datetime(viewed_by_me_date/1000, 'unixepoch')
-	End	as "Viewed by User Date",
+	End as "Viewed by User Date",
 	Mime_type as "Mime Type",
 	Quota_bytes as "Size",
 	case is_folder
