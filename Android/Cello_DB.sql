@@ -34,4 +34,8 @@ case trashed
 	when 0 then ''
 	when 1 then 'Yes'
 End as "Deleted"
+case trashed_date
+	when 0 then ''
+	else datetime(trashed_date/1000, 'unixepoch')
+End as "Deleted Date"
 FROM items
