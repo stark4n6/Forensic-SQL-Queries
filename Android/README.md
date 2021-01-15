@@ -1,4 +1,4 @@
-#READ ME - Android SQL Queries
+Android SQL Queries
 -----------------------------
 
 - Cello - Google Drive syncing
