@@ -1,6 +1,8 @@
 Android SQL Queries
 -----------------------------
-
+- Chrome/Chromium
+  - Media History - tracks media information
+    https://www.stark4n6.com/2021/01/chrome-media-history.html
 - Google Drive
   - Cello - Google Drive syncing
     https://www.stark4n6.com/2020/12/google-docs-cello-doclist-dbs.html
