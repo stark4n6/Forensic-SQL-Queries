@@ -15,6 +15,7 @@ Android SQL Queries
 - Files By Google
   - Files Master - list of files in Files by Google
   - Search History - keywords searched in Files by Google
+  
   https://www.stark4n6.com/2021/01/files-by-google-more-mobile-explorer.html
 
 - Turbo - Google Pixel battery status
