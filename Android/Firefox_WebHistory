@@ -14,8 +14,7 @@ CASE
 END AS Typed,
 moz_places.frecency AS Frecency,
 moz_places.preview_image_url AS PreviewImageURL
-FROM
-moz_places
+FROM moz_places
 INNER JOIN moz_historyvisits ON moz_places.origin_id = moz_historyvisits.id
 INNER JOIN moz_places_metadata ON moz_places.id = moz_places_metadata.id
 ORDER BY
