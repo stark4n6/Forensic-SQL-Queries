@@ -1,6 +1,6 @@
 SELECT
-datetime( firstUsed / 1000000, 'unixepoch', 'localtime' ) AS "First Used",
-datetime( lastUsed / 1000000, 'unixepoch', 'localtime' ) AS "Last Used",
+datetime(firstUsed/1000000, 'unixepoch') AS FirstUsed,
+datetime(lastUsed/1000000, 'unixepoch') AS LastUsed,
 fieldname AS FieldName,
 value AS Value,
 timesUsed AS TimesUsed,
